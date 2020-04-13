@@ -1,29 +1,16 @@
-# create-react-npm-package
-Boilerplate code to bundle a React component as an NPM package
+To use:
 
-# Usage
-## Clone
-```
-git clone https://github.com/skflowne/create-react-npm-package
-```
-## Install, build and link your package
-```
-yarn && yarn build && yarn link
-```
-## Go to test app and link your package
-```
-cd example
-yarn link [package-name]
-```
-## Dev
-Will start rollup in watch mode
-```
-yarn start
-```
-Then start test app in another terminal
-```
-cd example
-yarn start
-```
-You can now dev your package and see your changes as soon as your hit save
+- Clone the repo
+- `npm install` in the root folder
+- `npm start` in the root folder
 
+That will build and watch for changes to the component
+
+To see/test the component in the example project...
+
+- change into the `example` directory and run `npm install`
+- `npm start` in the `example` directory
+
+If you get errors try deleting the `node_modules` and `package-lock.json` from both folders and repeat the above.
+
+If it went smooth, you should be able to make changes to the main component and it will update the example project.
