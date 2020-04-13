@@ -1,0 +1,62 @@
+{
+    "name": "coderadio",
+    "version": "1.0.0",
+    "description": "24/7 Coderadio for freeCodeCamp",
+    "main": "dist/index.js",
+    "styles": "disc/styles.css",
+    "scripts": {
+        "start": "rollup -c -w",
+        "build": "rollup -c",
+        "dev": "babel src --out-file=dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mot01/coderadio.git"
+    },
+    "keywords": [
+        "freecodecamp",
+        "coderadio"
+    ],
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "author": "moT01",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mot01/coderadio/issues"
+    },
+    "homepage": "https://github.com/mot01/coderadio#readme",
+    "peerDependencies": {
+        "react": "^16.9.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/preset-env": "^7.6.0",
+        "@babel/preset-react": "^7.0.0",
+        "@freecodecamp/eslint-config": "^2.0.2",
+        "@rollup/plugin-commonjs": "^11.0.2",
+        "@rollup/plugin-node-resolve": "^7.1.1",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-prefer-object-spread": "^1.2.1",
+        "eslint-plugin-prettier": "^3.1.0",
+        "fibers": "^4.0.2",
+        "node-sass": "^4.13.1",
+        "prettier": "^1.18.2",
+        "react": "^16.9.0",
+        "react-dom": "^16.13.1",
+        "react-scripts": "^3.4.1",
+        "rollup": "^1.21.3",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-postcss": "^2.5.0",
+        "rollup-plugin-terser": "^5.1.2",
+        "sass": "^1.26.3",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "nchan": "^1.0.10",
+        "react-device-detect": "^1.11.14",
+        "react-hotkeys": "^2.0.0"
+    }
+}
