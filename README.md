@@ -11,6 +11,4 @@ To see/test the component in the example project...
 - change into the `example` directory and run `npm install`
 - `npm start` in the `example` directory
 
-If you get errors try deleting the `node_modules` and `package-lock.json` from both folders and repeat the above.
-
 If it went smooth, you should be able to make changes to the main component and it will update the example project.
